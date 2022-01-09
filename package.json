@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "main": "./src/index.ts",
   "repository": "https://github.com/SimasDei/ts-maparoonie.git",
-  "author": "simas@simas-dei.com"
+  "author": "simas@simas-dei.com",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "faker": "^6.6.6"
+  }
 }
